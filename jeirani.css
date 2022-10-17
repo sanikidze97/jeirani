@@ -75,19 +75,31 @@
 
 }
 .but1-but1{
+
+
+  background-image: url('/image/scissors.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
     border-radius: 10px; 
     width: 30%;
     height: 100%;
     border: 2px solid rgb(48, 223, 142);
+
 }
 
 .but1-but2{
+  background-image: url('/image/rock1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
     border-radius: 10px;
     width: 30%;
     height: 100%;
     border: 2px solid rgb(48, 223, 142);
 }
 .but1-but3{
+  background-image: url('/image/paper.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
     border-radius: 10px;
     width: 30%;
     height: 100%;
@@ -108,6 +120,9 @@
 
 
 .but2-but1{
+  background-image: url('/image/paper.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
     border-radius: 10px;
     width: 30%;
     height: 100%;
@@ -115,23 +130,24 @@
 }
 
 .but2-but2{
+  background-image: url('/image/rock1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
     border-radius: 10px;
     width: 30%;
     height: 100%;
     border: 2px solid rgb(176, 45, 209);
 }
 .but2-but3{
+  background-image: url('/image/scissors.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
     border-radius: 10px;
     width: 30%;
     height: 100%;
     border: 2px solid rgb(176, 45, 209);
 }
-  .but-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-  }
+  
 
 
   .but1-but1:hover{
